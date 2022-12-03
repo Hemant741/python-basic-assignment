@@ -1,0 +1,64 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* :- arithmetic operator for multiplication 
+'hello' :- string value
+-87.8 :- float value
+- :- arithmetic operator for subtraction
+/  :- arithmetic operator for true division
++	:- arithmetic operator for addition
+6  :- integer value
+
+2. What is the difference between string and variable?
+Ans:- String:-  String is a series of character. We use  double and single quote for string. In the  quotes very thing is a string.
+Example of string:- “This is a string.”  And ‘This is also a string.’
+Variable:- Variable is use for store data in itself. And we can use this data by the only variable name in the future. Simply we assign a value and data to a variable . And we can make a variable name by our choice what we store in that variable.
+Example of a Variable:- name = “Hemant chaudhary” and number = 8256823589 like that.
+
+3. Describe three different data types.
+Integer Data Type:-  Integer data type is store whole numbers. There is no decimal value in it. Example:- 7,34,4,35,e.t.c 
+Floats Data Type:- Float is used for real numbers with decimal which separate the integer and fractional part. Like 89.35,949.948,e.t.c
+Complex Data Type:- it is a combination of a imaginary and a real number. It’s first part is real and second part is imaginary.
+Like:- a = 2+3j. Here 2.0 is a real part and 3.0 is imaginary part
+
+
+4. What is an expression made up of? What do all expressions do?
+Expression is made up of a combination of a operator and operands that is interpreted to produce some other value. 
+Expression can we arithmetic ,logical or relational. In the programming language , expression is evaluated as per the precedence of its operators. Like:- z = x+y, a>b, a == b
+Expression is do a some operation for given value and produce some output like:-
+A = 7+8 in this expression 7 and 8 is added with the help of a arithmetic operator and the final value of a is 15. 
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans:-
+1. A statement is used for creating variables or for displaying values. 
+   The expression produces some value or result after being interpreted.
+2. A statement is not evaluated for some results.
+    A expression is evaluated for some result.
+3. A statement can be a expression.
+ An expression is not a statement.
+Example:- Statement:- b = 7.
+           Expression:- a = 45*78.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Ans: bacon contain 22.
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam' = ‘spamspamspam’
+'spam' * 3 = ‘spamspamspam’
+
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans:- Eggs is valid variable name because variable name can be start with the alphabets . 
+100 is invalid because variable name cannot start with the numbers. It is invalid in programming language.
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans:- int():- this function is used for to get a integer value.
+float():- this function is used for to get a floating-point number.
+Str():- this function is used for to get a string.
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.' :- in this expression 99 is considered as a integer and in python integer and string is not concatenate . only string can be concatenate.
+The correct form of this is :- ‘I have eaten ‘ + ‘99’ + ‘burritos’ now 99 is act as a string because we use single quote for 99.
+
+
+
