@@ -1,0 +1,102 @@
+1.What are the two values of the Boolean data type? How do you write them?
+Ans:- Boolean data type :- It is used to check the condition. It is has two values  True and False.
+It is declare by bool keyword and it’s syntax is bool([x]).
+Example:- class_start_at = 1500
+                   You_came_at = 1600
+                   You_came_at < class_start_at
+Output:- False 
+
+2. What are the three different types of Boolean operators?
+Ans:- Boolean OR operator:-The Boolean OR operator is return True when if any input is True else return False.
+Boolean AND operator:- Boolean AND operator returns False if any input is False else return True.
+Boolean NOT operator:-Boolean NOT operator requires only one argument and return the opposite argument of it. Like if input is True it returns False & if input is False it returns True.
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+Ans:- Boolean OR Operator Truth Table:- 
+Input A	    Input B	   Output A Or B
+True 	      True	       True
+True 	      False	       True
+False	      True	       True
+False	      False	        False
+     
+Boolean NOT operator Truth Table:-
+Input A	       Output A 
+True 	           False
+False	           True
+
+Boolean AND Operator Truth Table:-
+ Input A	    Input B	   Output A Or B
+True 	        True	        True
+True 	        False	        False
+False	        True	        False
+False	        False	        False
+
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5) :- False
+not (5 > 4) :- False
+(5 > 4) or (3 == 5) :- True
+not ((5 > 4) or (3 == 5)) :- False
+(True and True) and (True == False) :- False
+(not False) or (not True) :- True
+
+5. What are the six comparison operators?
+Ans:- 
+Operator     Name	                 Example
+   == 	 Equal to                  X == Y
+   !=    Not Equal    	           X != Y
+   >	  Greater Than	             X > Y
+   <	  Less Than      	           X < Y
+  >=	  Greater than or Equal to	 X >= Y
+   <=   less than Equal to         X <= Y
+   
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+Ans:- Equal To Operator:- This operator is denoted by a ‘==’. This operator is used for checking the two operands are equal or not. Like when we compare the value of two variable like A and B. Example :- A = 10  & B = 10 here we compare the value of A and B like A == B. This return the true because here the value of  A and B is equal .
+Assignment Operator:- This operator is denoted by ‘=’. This operator is used for a assign a value on the right to the variable on the left. Example:- We assign a 10 to A like ‘A = 10’. Now A hold the 10 in it.  
+
+7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:   
+print('eggs')  :-Block A is started. 
+if spam > 5:     Still Block A.
+print('bacon')     :- Block B is started inside Block A.
+else:    Block B is ended inside Block A.
+print('ham')    :-Block C is started inside Block A.
+print('spam')     :- Block C is  ended inside Block A.
+print('spam')      :- Block A is Ended.
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+Ans:-  spam = 0
+if spam == 1:
+    print('Hello')
+if spam == 2:
+    print('Howdy')
+else:
+      print('Greetings!')
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+Ans:- If your programme is stuck in an endless loop then we will press ‘CTRL + C’ to end the loop.
+
+10. How can you tell the difference between break and continue?
+Ans:- Break:- The break statement terminates the whole iteration of a loop. It is used to jump out of a loop. It can be used with loops like for loop, while loop. The break statement is also used in switch statements. It’s syntax:- break;
+Continue:- The continue statement skips the current iteration. we use the continue with a switch statement to skip the case. Brings the next iteration early. It’s syntax:- continue; 
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+Ans:- range(start, end, step):- this the basic syntax of a range. 
+range(10):- It’s means it gives the value from 0 to 9 . It exclude the 10 because it stop at 10 and give only 0 to 9.
+range(0, 10):- It’s also gives the value from 0 to 9 but here we declare the starting point as 0.
+range(0, 10, 1):- In this expression we also declare the step in the end. Which means it skip the one value while give the result. 
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+Ans:- Program that prints the numbers 1 to 10 using a for loop:-
+           for i in range(1, 11):
+                   print(i)
+Prints the numbers 1 to 10 using a while loop:-
+i = 1
+while (i <= 10):
+    print(i)
+    i += 1
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+Ans:- We can call the bacon() function after importing spam module use a dot(.) operator along with a module name .
+
+
